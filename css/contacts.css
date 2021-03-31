@@ -1,0 +1,71 @@
+main{
+    text-align: center;
+}
+main > h2{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 40px;
+    letter-spacing: 7px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--purple);
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+.contact-item{
+    padding: 50px 0 30px;
+    width: 33.333%;
+    border-left: 1px solid var(--purple);
+    text-align: center;
+}
+address.contact-item{
+    border: none;
+    font-style: normal;
+}
+address.contact-item p:nth-of-type(1){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.tel-contacts2{
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tel-item{
+    line-height: 70px;
+    width: 40%;
+    transition: transform .15s ease;
+}
+.tel-item:hover{
+    transform: scale(1.5);
+}
+.bank p:nth-of-type(3){
+    margin-top: 20px;
+}
+#map{
+    border-top: 8px solid var(--yellow);
+    height: 500px;
+}
+#map iframe{
+    height: inherit; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:850px){
+    .contacts{
+        margin: 50px auto;
+    }
+    .contact-item{
+        padding: 50px 0 30px;
+        width: 100%;
+        border: none;
+        border-top: 1px solid var(--purple);
+        text-align: center;
+    }
+}

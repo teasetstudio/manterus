@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Manterus</title>
+        <link rel="icon" href="img/logo-train.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/header_footer.css">
+        <link rel="stylesheet" href="css/services.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&
+        family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-inner">
+                    <div class="logo">
+                        <img src="img/logo-train.png" alt="" height="50">
+                        <a class="logo-name" href="index.html">
+                            <h1>Manterus</h1>
+                            <p>Smart Logistic</p>
+                        </a>
+                        <h2>Логистика и Международные Грузоперевозки</h2>
+                    </div>
+                    <div class="language">
+                        <div class="lang-style cur-lang">
+                            <img src="img/eng.jpg" alt="" height="35">
+                            <p>EN</p>
+                        </div>
+                        <div class="choose-lang">
+                            <a href="lt_services.html" class="lang-style">
+                                <img src="img/lt.jpg" alt="" height="35">
+                                <p>LT</p>
+                            </a>
+                            <a href="services.html" class="lang-style last-lang">
+                                <img src="img/rus.jpg" alt="" height="35">
+                                <p>RU</p>
+                            </a>
+                        </div>
+                    </div>
+                    <h2>Логистика и Международные Грузоперевозки</h2>
+                </div>
+                <div class="nav-menu">
+                    <nav class="nav">
+                        <a class="nav-link" href="eng_index.html">Home</a>
+                        <a class="nav-link nav-active" href="eng_services.html">Services</a>
+                        <a class="nav-link" href="eng_about.html">About</a>
+                        <a class="nav-link" href="eng_contacts.html">Contacts</a>
+                    </nav>
+                    <div class="tel-contacts">
+                        <a class="telephone hide-mobile" title="Должен быть установлен Viber" href="viber://chat?number=+37061092889">
+                            <img src="img/viber.png" height="28">
+                        </a>
+                        <a class="telephone hide-pc" href="viber://add?number=37061092889">
+                            <img src="img/viber.png" height="28">
+                        </a>
+                        <a class="telephone" title="Должен быть установлен What's Up" href="whatsapp://send?text=Здравствуйте, &phone=+37061092889&abid=+37061092889">
+                            <img src="img/whatsup.png" height="28">
+                        </a>
+                        <a class="telephone mobile360px" href="tel:+37061092889">+370 <mark>610-92-889</mark></a>
+                    </div>
+                    <div class="burger-btn" type="button"><p></p></div>
+                    <div class="burger-menu">
+                        <div class="burger">
+                            <div class="close-btn" type="button"><p></p></div>
+                            <ul class="burger-list">
+                                <li class="burger-link"><a href="eng_index.html">Home</a></li>
+                                <li class="burger-link"><a href="eng_services.html">Services</a></li>
+                                <li class="burger-link"><a href="eng_about.html">About</a></li>
+                                <li class="burger-link"><a href="eng_contacts.html">Contacts</a></li>
+                            </ul>
+                            <div class="contacts-burger">
+                                <div class="messengers-mobile">
+                                    <a class="telephone" href="viber://add?number=37061092889">
+                                        <img src="img/viber.png" alt="" height="28">
+                                    </a>
+                                    <a class="telephone" title="Должен быть установлен What's Up" href="whatsapp://send?text=Здравствуйте, &phone=+37061092889&abid=+37061092889">
+                                        <img src="img/whatsup.png" alt="" height="28">
+                                    </a>
+                                </div>
+                                <a class="telephone burger-phone" href="tel:+37061092889">+370<mark>610-92-889</mark></a>
+                                <a class="burger-email burger-phone telephone" href = "mailto:manterus.way@gmail.com?subject = Feedback&body = Message">
+                                    <img src="img/email.png" alt="">manterus.way@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="services container">
+            <h2>Услуги</h2>
+            <div class="services-inner">
+                <button class="service-item railway" target="railway" onclick="showcase(this)">
+                    <img src="img/railway-service.png" height="100" alt="">
+                    <p>Экспедирование и перевозка грузов<br> по железной дороге</p>                    
+                </button>
+                <button class="service-item multimodal" onclick="showcase(this)">
+                    <img src="img/multimodal-service.png" height="100" alt="">
+                    <p>Мультимодальные перевозки</p>                    
+                </button>
+            </div>  
+        </main>
+        <section class="additional-services">
+            <div class="types-inner">
+                <h2 class="grid-item item1">Другие услуги:</h2>
+                <div class="grid-item item-hover item2">
+                    <h4>Складирование</h4>
+                    <p>,включая услуги фитосанитарных складов (в Литве)</p>
+                </div>
+                <div class="grid-item item-hover item3"><h4>Страховка</h4></div>
+                <div class="grid-item item-hover item4"><h4>Консультация</h4></div>
+                <div class="grid-item item-hover item5"><h4>Таможенное<br> оформление в РБ</h4></div>
+                <div class="grid-item item6">любые связанные с перевозками услуги</div>
+                <div class="grid-item item-hover item7"><h4>Мониторинг<br> вагонов</h4></div>
+                <div class="grid-item item-hover item8">
+                    <h4>Сертификация</h4>
+                    <p>- фитосанитарная</p>
+                    <p>- происхождения грузов</p>
+                </div>
+                <div class="grid-item item-hover item9"><h4>Сборка грузов<br> в Европе</h4></div>
+            </div>
+        </section>
+        <section class="curtains">
+            <div class="curtain cur-left"></div>
+            <div class="curtain cur-right"></div>
+        </section>
+        <section class="window-blogs">
+            <div class="header-btn">
+                <div class="container">
+                    <button class="close-blog-btn" onclick="hidecase()">Close</button>
+                </div>
+            </div>
+            <div class="posRelative container">
+                <div class="rw-blog blog-gen">
+                    <div class="blog1">
+                        <div>
+                            <h4>Почему железная дорога?</h4>
+                            <p>Услуги перевозок грузов ж/д транспортом пользуются большим спросом, это возможность доставить большую
+                                партию товаров по невысокой стоимости. Ж/д контейнеры имеют стандартные размеры, при необходимости их
+                                можно перевезти любым транспортом – автомобильным, воздушным или морским. Международные железнодорожные
+                                грузоперевозки – наиболее безопасный способ доставить хрупкий груз «от дома к дому»,
+                                не беспокоясь за его сохранность.</p>
+                            <p>Разветвленность и большая протяженность рельсовых путей способствует спросу на услуги железнодорожных
+                                перевозок. Этот вариант грузовых поставок прочно занял свое место в международной транспортной системе.</p>
+                        </div>
+                        <img src="img/railway-blog.jpg" height="280" alt="">
+                    </div>
+                    <div class="blog2">
+                        <div class="blog-item">
+                            <img src="img/blog2-lowcost.png" height="70" alt="">
+                            <h4>Невысокая<br>стоимость</h4>
+                            <p>Доставка по рельсам обходится на порядок дешевле, чем по воздуху или на авто</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/accept.png" height="70" alt="">
+                            <h4>Разветвленность<br>дорог</h4>
+                            <p>Практически все населенные пункты располагаются рядом с железнодорожной магистралью</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/accept.png" height="70" alt="">
+                            <h4>Доставка любых<br>типов груза</h4>
+                            <p>Благодаря широкому выбору контейнеров жд транспортом можно перевезти практически всё,
+                               что угодно, в том числе и товары, требующие специального температурного режима и уровня влажности</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/blog2-lowcost.png" height="70" alt="">
+                            <h4>Быстрое таможенное<br>оформление</h4>
+                            <p>На пограничных пунктах поездам не приходится стоять в очереди</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mm-blog blog-gen">
+                    <div class="blog1">
+                        <div>
+                            <h4>Мультимодальные перевозки</h4>
+                            <p>На текущий момент в мире востребованы перевозки всеми видами транспорта (морской, воздушный,
+                                железнодорожный, авто). Оперируя несколькими переменными, начиная от скорости доставки, заканчивая
+                                стоимостью грузоперевозок, вы выбираете приоритетный оптимальный способ доставки груза.</p>
+                            <p>Однако бывают случаи, когда груз необходимо доставить сразу несколькими видами транспорта.
+                                В этом случае вы можете воспользоваться нашими услугами. Мы имеем широкий опыт организации мультимодальных перевозок, у UAB «Manterus» заключены
+                                контракты с перевозчиками всех видов транспортных средств.</p>
+                        </div> 
+                        <img src="img/multimodal-2.jpg" height="280" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <address class="footer-item">
+                        <h4>UAB "Manterus"</h4>
+                        <p>+370 610 92 889</p>
+                        <p>manterus.way@gmail.com</p>
+                    </address>
+                    <div class="footer-item wrapper-form">
+                        <h4>Have any question? -<mark>Write</mark> to us!</h4>
+                        <form>
+                            <div class="inputblock">
+                                <input id="fname" class="fgeneran finput" type="text" name="name" placeholder="Your name.." required>
+                                <input id="femail" class="fgeneran finput"  type="email" name="email" placeholder="Your e-mail.." required>    
+                            </div>
+                            <textarea id="fmessage" class="fgeneran"  name="fmessage" placeholder="Your message.." style="height:100px" required></textarea>
+                            <button class="fgeneran fsubmit" type="submit">
+                                Send
+                            </button>
+                            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- HEADER underline slider, burger menu -->
+        <script src="js/things.js"></script>
+        <!-- carusel -->
+        <script src="js/carusel.js"></script>
+        <!-- server AJAX -->
+        <script src="js/formRequest.js"></script>
+    </body>
+</html>
